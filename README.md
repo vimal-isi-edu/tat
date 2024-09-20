@@ -1,8 +1,8 @@
 ![](images/tat.png)
 # Trojans Against Trojans (TAT)
-This page provides the data (code coming soon) used in the following paper.
+This page provides the data used in the following paper. The code for the paper can be found [here](https://github.com/vimal-isi-edu/trigs).
 
-Mohamed E. Hussein, Sudharshan Subramaniam Janakiraman, and Wael AbdAlmageed, "_[Trojan Model Detection Using Activation Optimization](https://arxiv.org/abs/2306.04877)_".
+Mohamed E. Hussein, Sudharshan Subramaniam Janakiraman, and Wael AbdAlmageed, "TRIGS: Trojan Identification from Gradient-based Signatures", accepted at ICPR 2024.
 
 The dataset contains 1,200 trained ViT-B-16 models, trained on ImageNet. Half of the models are benign. The other half constitutes Trojan models, each trained with a randomly generated trigger that makes the model predict a specific target class, chosen at random for each Trojan model.
 
@@ -25,12 +25,13 @@ model.load_state_dict(torch.load(model_path, map_location=lambda storage, loc: s
 If you use this dataset, please cite the following paper.
 
 ```
-@misc{hussein2023trojan,
-      title={Trojan Model Detection Using Activation Optimization}, 
-      author={Mohamed E. Hussein and Sudharshan Subramaniam Janakiraman and Wael AbdAlmageed},
-      year={2023},
-      eprint={2306.04877},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@inproceedings{HusseinICPR24TRIGS,
+  author       = {Mohamed E Hussein and
+                  Sudharshan Subramaniam Janakiraman and
+                  Wael AbdAlmageed},
+  title        = {{TRIGS:} Trojan Identification from Gradient-based Signatures},
+  booktitle    = {27th International Conference on Pattern Recognition, {ICPR} 2024},
+  publisher    = {{Springer}},
+  year         = {2024},
 }
 ```
