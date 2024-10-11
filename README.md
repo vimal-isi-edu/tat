@@ -1,13 +1,13 @@
 ![](images/tat.png)
 # Trojans Against Trojans (TAT)
-This page provides the data used in the following paper. The code for the paper can be found [here](https://github.com/vimal-isi-edu/trigs).
+This page provides the data used in the following paper. An earlier version of the paper can be found on [arxiv](https://arxiv.org/pdf/2306.04877). The associated code can be found [here](https://github.com/vimal-isi-edu/trigs).
 
 Mohamed E. Hussein, Sudharshan Subramaniam Janakiraman, and Wael AbdAlmageed, "TRIGS: Trojan Identification from Gradient-based Signatures", accepted at ICPR 2024.
 
 The dataset contains 1,200 trained ViT-B-16 models, trained on ImageNet. Half of the models are benign. The other half constitutes Trojan models, each trained with a randomly generated trigger that makes the model predict a specific target class, chosen at random for each Trojan model.
 
 # Download
-The data can be downloaded from this [GoogleDrive folder](https://drive.google.com/drive/u/1/folders/14xaroC7RayfRxhPiM4uhdGqN5c04GFR7).
+The data can be downloaded from this [GoogleDrive folder](https://drive.google.com/drive/u/1/folders/10fsrNJaYBgDAq9uDVM6f0VPqdT_S921Z).
 
 # Usage
 The models are based on `torchvision`'s implementation of the ViT-B-16 architecture. We specifically used `PyTorch` version 2.0 and `torchvision` version 1.15.1. The following code snippet can be used to load any of the models in the dataset.
