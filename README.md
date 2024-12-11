@@ -1,6 +1,6 @@
 ![](images/tat.png)
 # Trojans Against Trojans (TAT)
-This page provides the data used in the following paper. An earlier version of the paper can be found on [arxiv](https://arxiv.org/pdf/2306.04877). The associated code can be found [here](https://github.com/vimal-isi-edu/trigs).
+This page provides the data used in the following paper, which can be found [here](https://link.springer.com/chapter/10.1007/978-3-031-78122-3_23). An earlier version of the paper can be found on [arxiv](https://arxiv.org/pdf/2306.04877). The associated code can be found [here](https://github.com/vimal-isi-edu/trigs).
 
 Mohamed E. Hussein, Sudharshan Subramaniam Janakiraman, and Wael AbdAlmageed, "TRIGS: Trojan Identification from Gradient-based Signatures", accepted at ICPR 2024.
 
